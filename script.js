@@ -24,7 +24,7 @@ document.addEventListener('keydown', function(event) {
             // Create a container div for both lines
             textElement = document.createElement('div');
             textElement.style.position = 'fixed';
-            textElement.style.top = '100%';
+            textElement.style.top = '80%';
             textElement.style.left = '50%';
             textElement.style.transform = 'translate(-50%, -50%)';
             textElement.style.zIndex = 1000; // Ensure the text is on top
@@ -32,7 +32,7 @@ document.addEventListener('keydown', function(event) {
 
             // Create the first line of text
             let line1 = document.createElement('div');
-            line1.textContent = 'This is the first line of text';
+            line1.textContent = 'hello this you are seeing this bc you are useing a script mde by akuma';
             line1.style.color = 'transparent';
             line1.style.background = 'linear-gradient(to bottom, red, black)';
             line1.style.backgroundClip = 'text';
@@ -41,7 +41,7 @@ document.addEventListener('keydown', function(event) {
             
             // Create the second line of text
             let line2 = document.createElement('div');
-            line2.textContent = 'This is the second line of text';
+            line2.textContent = 'Commans: Ctrl L for StreamerModeScript';
             line2.style.color = 'transparent';
             line2.style.background = 'linear-gradient(to bottom, red, black)';
             line2.style.backgroundClip = 'text';
